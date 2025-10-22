@@ -1,0 +1,14 @@
+C:\Users\71445\source\repos\Programowanie_obiektowe_71445\Programowanie_obiektowe_71445\bin\Debug\net8.0\Programowanie_obiektowe_71445.exe
+C:\Users\71445\source\repos\Programowanie_obiektowe_71445\Programowanie_obiektowe_71445\bin\Debug\net8.0\Programowanie_obiektowe_71445.deps.json
+C:\Users\71445\source\repos\Programowanie_obiektowe_71445\Programowanie_obiektowe_71445\bin\Debug\net8.0\Programowanie_obiektowe_71445.runtimeconfig.json
+C:\Users\71445\source\repos\Programowanie_obiektowe_71445\Programowanie_obiektowe_71445\bin\Debug\net8.0\Programowanie_obiektowe_71445.dll
+C:\Users\71445\source\repos\Programowanie_obiektowe_71445\Programowanie_obiektowe_71445\bin\Debug\net8.0\Programowanie_obiektowe_71445.pdb
+C:\Users\71445\source\repos\Programowanie_obiektowe_71445\Programowanie_obiektowe_71445\obj\Debug\net8.0\Programowanie_obiektowe_71445.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\71445\source\repos\Programowanie_obiektowe_71445\Programowanie_obiektowe_71445\obj\Debug\net8.0\Programowanie_obiektowe_71445.AssemblyInfoInputs.cache
+C:\Users\71445\source\repos\Programowanie_obiektowe_71445\Programowanie_obiektowe_71445\obj\Debug\net8.0\Programowanie_obiektowe_71445.AssemblyInfo.cs
+C:\Users\71445\source\repos\Programowanie_obiektowe_71445\Programowanie_obiektowe_71445\obj\Debug\net8.0\Programowanie_obiektowe_71445.csproj.CoreCompileInputs.cache
+C:\Users\71445\source\repos\Programowanie_obiektowe_71445\Programowanie_obiektowe_71445\obj\Debug\net8.0\Programowanie_obiektowe_71445.dll
+C:\Users\71445\source\repos\Programowanie_obiektowe_71445\Programowanie_obiektowe_71445\obj\Debug\net8.0\refint\Programowanie_obiektowe_71445.dll
+C:\Users\71445\source\repos\Programowanie_obiektowe_71445\Programowanie_obiektowe_71445\obj\Debug\net8.0\Programowanie_obiektowe_71445.pdb
+C:\Users\71445\source\repos\Programowanie_obiektowe_71445\Programowanie_obiektowe_71445\obj\Debug\net8.0\Programowanie_obiektowe_71445.genruntimeconfig.cache
+C:\Users\71445\source\repos\Programowanie_obiektowe_71445\Programowanie_obiektowe_71445\obj\Debug\net8.0\ref\Programowanie_obiektowe_71445.dll
