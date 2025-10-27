@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6 d17.14
+VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programowanie_obiektowe_71445", "Programowanie_obiektowe_71445\Programowanie_obiektowe_71445.csproj", "{CD3D3BF4-1DF5-4B14-8273-C97D6F921202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2", "Lab2\Lab2.csproj", "{9225F05E-CCB8-4672-8E29-67C917CA27E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CD3D3BF4-1DF5-4B14-8273-C97D6F921202}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD3D3BF4-1DF5-4B14-8273-C97D6F921202}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD3D3BF4-1DF5-4B14-8273-C97D6F921202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9225F05E-CCB8-4672-8E29-67C917CA27E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9225F05E-CCB8-4672-8E29-67C917CA27E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9225F05E-CCB8-4672-8E29-67C917CA27E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9225F05E-CCB8-4672-8E29-67C917CA27E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
