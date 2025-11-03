@@ -1,116 +1,138 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
-namespace Programowanie_obiektowe_71445.Laboratorium
+// zad 1
+class Zwierze
 {
-    internal class Lab2
+    protected string nazwa;
+
+    public Zwierze(string nazwa)
     {
+        this.nazwa = nazwa;
+    }
+
+    public virtual void daj_glos()
+    {
+        Console.WriteLine("...");
     }
 }
 
-namespace Zwierzeta
+// zad 2
+class Pies : Zwierze
 {
+    public Pies(string nazwa) : base(nazwa) { }
 
-    class Program
+    public override void daj_glos()
     {
-        public static void Main()
-        {
-            // zad 10
-            Piekarz piekarz = new Piekarz();
-            piekarz.Pracuj();
+        Console.WriteLine($"{nazwa} robi woof woof!");
+    }
+}
 
+// zad 3
+class Kot : Zwierze
+{
+    public Kot(string nazwa) : base(nazwa) { }
 
-        }
+    public override void daj_glos()
+    {
+        Console.WriteLine($"{nazwa} robi miau miau!");
+    }
+}
 
+// zad 4
+class Waz : Zwierze
+{
+    public Waz(string nazwa) : base(nazwa) { }
+
+    public override void daj_glos()
+    {
+        Console.WriteLine($"{nazwa} robi ssssssss!");
+    }
+}
+
+// zad 6
+static class Program
+{
+    static void powiedz_cos(Zwierze z)
+    {
+        z.daj_glos();
+        Console.WriteLine($"Typ obiektu: {z.GetType().Name}");
+        Console.WriteLine();
     }
 
-    // Laboratorium 2
-    // zadania 1
-
-
-
-    namespace Zwierzeta { }
-
-    public class Zwierze
+    static void Main()
     {
-        protected string nazwa;
+        // zad 7
+        Zwierze z1 = new Zwierze("Zwierzątko");
+        Pies p1 = new Pies("Burek");
+        Kot k1 = new Kot("Mruczek");
+        Waz w1 = new Waz("Python");
 
-        public Zwierze(string nazwa)
-        {
-            this.nazwa = nazwa;
-        }
+        powiedz_cos(z1);
+        powiedz_cos(p1);
+        powiedz_cos(k1);
+        powiedz_cos(w1);
 
-        public virtual void daj_glos()
-        {
-            Console.WriteLine("...");
-        }
-        // zadania 6
-        public static void powiedz_cos(Zwierze z)
-        {
-            z.daj_glos();
-        }
+        // zad 8 i 9
+        Piekarz piekarz = new Piekarz();
+        piekarz.Pracuj();
+
+        // zad 11, utworzenia obiektu klasy abstrakcyjnej
+        /* Pracownik p = new Pracownik(); 
+         nie można tworzyć obiektów klasy abstrakcyjnej */
+
+        Console.WriteLine();
+
+        // zad 12–15 
+        A a = new A();
+        Console.WriteLine();
+
+        B b = new B();
+        Console.WriteLine();
+
+        C c = new C();
+
+        Console.ReadKey();
     }
+}
 
-    // zadania 2
+// zad 8
+abstract class Pracownik
+{
+    public abstract void Pracuj();
+}
 
-    public class Pies : Zwierze
+// zad 9
+class Piekarz : Pracownik
+{
+    public override void Pracuj()
     {
-        public Pies(string nazwa) : base(nazwa)
-        {
-        }
-
-        public override void daj_glos()
-        {
-            Console.WriteLine($"{nazwa} robi woof woof");
-        }
+        Console.WriteLine("Trwa pieczenie...");
     }
+}
 
-
-
-    // zadania 3
-    public class Kot : Zwierze
+// zad 12
+class A
+{
+    public A()
     {
-        public Kot(string nazwa) : base(nazwa) { }
-        public override void daj_glos()
-        {
-            Console.WriteLine($"{nazwa} robi miau miau");
-        }
-
+        Console.WriteLine("To jest konstruktor A");
     }
+}
 
-    // zadania 4
-    public class Waz : Zwierze
+// zad 13. klasa B dziedzicząca po A
+class B : A
+{
+    public B() : base()
     {
-        public Waz(string nazwa) : base(nazwa) { }
-        public override void daj_glos()
-        {
-            Console.WriteLine($"{nazwa} robi sssss");
-        }
+        Console.WriteLine("To jest konstruktor B");
     }
+}
 
-
-    // zadania 7
-
-    // zadania 8
-
-    public abstract class Pracownik
+// zad 14. klasa C dziedzicząca po B
+class C : B
+{
+    public C() : base()
     {
-        public abstract void Pracuj();
+        Console.WriteLine("To jest konstruktor C");
     }
-
-    // zadania 9
-
-    public class Piekarz : Pracownik 
-    {
-        public override void Pracuj()
-        {
-            Console.WriteLine("Trwa pieczenie....");
-        }
-    }
-
-
-
 }
