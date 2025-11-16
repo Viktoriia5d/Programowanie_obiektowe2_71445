@@ -1,40 +1,13 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-// komentarz
-namespace Programowanie_obiektowe_71445.Laboratorium
+
+namespace Lab2
 {
-    internal class Lab2
-    {
-    }
-}
-
-namespace Zwierzeta
-{
-
-    class Program
-    {
-        public static void Main()
-        {
-            // zad 10
-            Piekarz piekarz = new Piekarz();
-            piekarz.Pracuj();
-
-
-        }
-
-    }
-
-    // Laboratorium 2
-    // zadania 1
-
-
-
-    namespace Zwierzeta { }
-
-    public class Zwierze
+    // zad 1
+    class Zwierze
     {
         protected string nazwa;
 
@@ -47,70 +20,126 @@ namespace Zwierzeta
         {
             Console.WriteLine("...");
         }
-        // zadania 6
-        public static void powiedz_cos(Zwierze z)
-        {
-            z.daj_glos();
-        }
     }
 
-    // zadania 2
-
-    public class Pies : Zwierze
+    // zad 2
+    class Pies : Zwierze
     {
-        public Pies(string nazwa) : base(nazwa)
-        {
-        }
+        public Pies(string nazwa) : base(nazwa) { }
 
         public override void daj_glos()
         {
-            Console.WriteLine($"{nazwa} robi woof woof");
+            Console.WriteLine($"{nazwa} robi woof woof!");
         }
     }
 
-
-
-    // zadania 3
-    public class Kot : Zwierze
+    // zad 3
+    class Kot : Zwierze
     {
         public Kot(string nazwa) : base(nazwa) { }
+
         public override void daj_glos()
         {
-            Console.WriteLine($"{nazwa} robi miau miau");
+            Console.WriteLine($"{nazwa} robi miau miau!");
         }
-
     }
 
-    // zadania 4
-    public class Waz : Zwierze
+    // zad 4
+    class Waz : Zwierze
     {
         public Waz(string nazwa) : base(nazwa) { }
+
         public override void daj_glos()
         {
-            Console.WriteLine($"{nazwa} robi sssss");
+            Console.WriteLine($"{nazwa} robi ssssssss!");
         }
     }
 
+    // zad 6
+    class Program
+    {
+        static void powiedz_cos(Zwierze z)
+        {
+            z.daj_glos();
+            Console.WriteLine($"Typ obiektu: {z.GetType().Name}");
+            Console.WriteLine();
+        }
 
-    // zadania 7
+        static void Main()
+        {
+            // zad 7
+            Zwierze z1 = new Zwierze("Zwierzątko");
+            Pies p1 = new Pies("Burek");
+            Kot k1 = new Kot("Mruczek");
+            Waz w1 = new Waz("Python");
 
-    // zadania 8
+            powiedz_cos(z1);
+            powiedz_cos(p1);
+            powiedz_cos(k1);
+            powiedz_cos(w1);
 
-    public abstract class Pracownik
+            // zad 8 i 9
+            Piekarz piekarz = new Piekarz();
+            piekarz.Pracuj();
+
+            // zad 11, utworzenia obiektu klasy abstrakcyjnej
+            /* Pracownik p = new Pracownik(); 
+             nie można tworzyć obiektów klasy abstrakcyjnej */
+
+            Console.WriteLine();
+
+            // zad 12–15 
+            A a = new A();
+            Console.WriteLine();
+
+            B b = new B();
+            Console.WriteLine();
+
+            C c = new C();
+
+            Console.ReadKey();
+        }
+    }
+
+    // zad 8
+    abstract class Pracownik
     {
         public abstract void Pracuj();
     }
 
-    // zadania 9
-
-    public class Piekarz : Pracownik 
+    // zad 9
+    class Piekarz : Pracownik
     {
         public override void Pracuj()
         {
-            Console.WriteLine("Trwa pieczenie....");
+            Console.WriteLine("Trwa pieczenie...");
         }
     }
 
+    // zad 12
+    class A
+    {
+        public A()
+        {
+            Console.WriteLine("To jest konstruktor A");
+        }
+    }
 
+    // zad 13. klasa B dziedzicząca po A
+    class B : A
+    {
+        public B() : base()
+        {
+            Console.WriteLine("To jest konstruktor B");
+        }
+    }
 
+    // zad 14. klasa C dziedzicząca po B
+    class C : B
+    {
+        public C() : base()
+        {
+            Console.WriteLine("To jest konstruktor C");
+        }
+    }
 }
