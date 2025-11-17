@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\71445\\source\\repos\\Programowanie_obiektowe2_71445\\Lab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BF012E-410A-428B-A61A-881C17A95D8A}|Lab3\\Lab4.csproj|c:\\users\\71445\\source\\repos\\programowanie_obiektowe2_71445\\lab3\\lab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1BF012E-410A-428B-A61A-881C17A95D8A}|Lab3\\Lab4.csproj|solutionrelative:lab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|K:\\ahalys\\PO_4\\Program_gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BF012E-410A-428B-A61A-881C17A95D8A}|Lab3\\Lab3.csproj|C:\\Users\\71445\\source\\repos\\Programowanie_obiektowe2_71445\\Lab3\\lab3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C1BF012E-410A-428B-A61A-881C17A95D8A}|Lab3\\Lab3.csproj|solutionrelative:lab3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\71445\\source\\repos\\Programowanie_obiektowe2_71445\\Lab3\\Lab3\\Program.cs",
+              "RelativeDocumentMoniker": "Lab3\\Program.cs",
+              "ToolTip": "C:\\Users\\71445\\source\\repos\\Programowanie_obiektowe2_71445\\Lab3\\Lab3\\Program.cs",
+              "RelativeToolTip": "Lab3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T12:25:16.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program_gui.cs",
+              "DocumentMoniker": "K:\\ahalys\\PO_4\\Program_gui.cs",
+              "ToolTip": "K:\\ahalys\\PO_4\\Program_gui.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T12:03:54.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\71445\\source\\repos\\Programowanie_obiektowe2_71445\\Lab3\\Lab3\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab3\\Form1.cs",
+              "ToolTip": "C:\\Users\\71445\\source\\repos\\Programowanie_obiektowe2_71445\\Lab3\\Lab3\\Form1.cs [Projekt]",
+              "RelativeToolTip": "Lab3\\Form1.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T11:59:56.899Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
