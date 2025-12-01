@@ -1,0 +1,7 @@
+C:\Users\71445\source\repos\Programowanie_obiektowe2_71445\Lab5\Lab5\bin\Debug\Lab5.exe.config
+C:\Users\71445\source\repos\Programowanie_obiektowe2_71445\Lab5\Lab5\bin\Debug\Lab5.exe
+C:\Users\71445\source\repos\Programowanie_obiektowe2_71445\Lab5\Lab5\bin\Debug\Lab5.pdb
+C:\Users\71445\source\repos\Programowanie_obiektowe2_71445\Lab5\Lab5\obj\Debug\Lab5.csproj.AssemblyReference.cache
+C:\Users\71445\source\repos\Programowanie_obiektowe2_71445\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+C:\Users\71445\source\repos\Programowanie_obiektowe2_71445\Lab5\Lab5\obj\Debug\Lab5.exe
+C:\Users\71445\source\repos\Programowanie_obiektowe2_71445\Lab5\Lab5\obj\Debug\Lab5.pdb
